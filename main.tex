@@ -1,0 +1,65 @@
+\documentclass{report}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage[square,sort,comma,numbers]{natbib}
+\usepackage{url}
+\usepackage[strings]{underscore}
+
+% Colores de los bloques de código
+\input{listing-settings}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+ 
+        \Large\textbf{Análisis aerolínea}
+ 
+        \vspace{0.5cm}
+        Práctica obligatoria 
+             
+        \vspace{1.5cm}
+ 
+        \textbf{Antonio Cabrera}
+ 
+        \vfill
+             
+        Trabajo para el doble grado de\\
+        Ingeniería del Software y Matemática Computacional\\
+             
+        \vspace{0.8cm}
+      
+        \includegraphics[width=0.4\textwidth]{figures/logo.png}
+             
+        Asignatura de procesamiento de datos\\
+        U-tad\\
+        España\\
+        Mayo 2024
+             
+    \end{center}
+ \end{titlepage}
+
+\tableofcontents
+
+\listoffigures
+
+\include{chapters/preparacion}
+
+
+
+\end{document}
