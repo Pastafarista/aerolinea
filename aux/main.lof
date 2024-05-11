@@ -4,8 +4,19 @@
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Descarga de Cassandra}}{4}{figure.1.3}%
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Descompresión de Cassandra}}{4}{figure.1.4}%
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Eliminación del archivo .tar.gz}}{5}{figure.1.5}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Despliegue de HDFS}}{6}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Comprobación de HDFS}}{6}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Comando de HDFS}}{7}{figure.2.3}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Despliegue de HDFS}}{5}{figure.1.6}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Comprobación de HDFS}}{5}{figure.1.7}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Comando de HDFS}}{5}{figure.1.8}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Comprobación de Postgres}}{6}{figure.1.9}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Comando de prueba de Postgres}}{6}{figure.1.10}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Despliegue de Cassandra}}{7}{figure.1.11}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Consola de Cassandra}}{7}{figure.1.12}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Creación de keyspace en Cassandra}}{7}{figure.1.13}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Cambio de directorio a Spark}}{7}{figure.1.14}%
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Arranque del Master de Spark}}{8}{figure.1.15}%
+\contentsline {figure}{\numberline {1.16}{\ignorespaces URL del Master de Spark}}{8}{figure.1.16}%
+\contentsline {figure}{\numberline {1.17}{\ignorespaces Interfaz web del Master de Spark}}{8}{figure.1.17}%
+\contentsline {figure}{\numberline {1.18}{\ignorespaces URL de los Workers de Spark}}{9}{figure.1.18}%
+\contentsline {figure}{\numberline {1.19}{\ignorespaces Configuración de los Workers de Spark}}{9}{figure.1.19}%
+\contentsline {figure}{\numberline {1.20}{\ignorespaces Arranque de los Workers de Spark}}{9}{figure.1.20}%
+\contentsline {figure}{\numberline {1.21}{\ignorespaces Interfaz web del Master de Spark con los Workers conectados}}{10}{figure.1.21}%
