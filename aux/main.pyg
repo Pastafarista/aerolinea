@@ -1,0 +1,2 @@
+bin/spark-shell --master spark://bigdatapc:7077 --driver-memory 1G
+--executor-memory 1G --total-executor-cores 2 --executor-cores 2

@@ -191,7 +191,7 @@ Vamos a ver como configurar y arrancar un despliegue de 1 nodo Master y 2 nodos 
 Primero, nos movemos a la carpeta de Spark con el siguiente comando:
 
 \begin{lstlisting}[language=bash]
-    cd ~/spark-3.2.0-bin-hadoop3.2
+    cd ~/spark-3.3.3-bin-hadoop3
 \end{lstlisting}
 
 \begin{figure}[H]
@@ -294,5 +294,36 @@ El primer paso será descargar los conectores de Postgres y Cassandra. Primero n
     wget https://repo1.maven.org/maven2/com/datastax/spark/spark-cassandra-connector_2.12/3.3.0/spark-cassandra-connector_2.12-3.3.0.jar
 \end{lstlisting}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/22.png}
+    \caption{Descarga de los conectores de Postgres y Cassandra}
+\end{figure}
 
+Ahora, para arrancar una shell de Spark, ejecutaremos el siguiente comando. En este comando especificamos la memoria que queremos que use el driver y los executors, así como el número de cores que queremos que use el driver y los executors. Además, especificamos los conectores que hemos descargado anteriormente.
 
+\begin{lstlisting}[language=bash]
+bin/spark-shell --master spark://bigdatapc:7077 --driver-memory 1G --executor-memory 1G --total-executor-cores 2 --executor-cores 2 --jars jars/postgresql-42.7.3.jar,jars/spark-cassandra-connector_2.12-3.3.0.jar
+\end{lstlisting}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/23.png}
+    \caption{Arranque de la shell de Spark}
+\end{figure}
+
+Si vamos a la web, veremos que se ha creado una aplicación en la interfaz web del Master de Spark.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/24.png}
+    \caption{Interfaz web del Master de Spark con la aplicación creada}
+\end{figure}
+
+También, al arrancar la shell de Spark, se nos muestra la URL de la interfaz web de la shell de Spark:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/58.png}
+    \caption{Interfaz web de la shell de Spark}
+\end{figure}
