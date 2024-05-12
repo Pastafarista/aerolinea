@@ -61,3 +61,12 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Creación de las vistas temporales de los dataframes}}{31}{figure.3.1}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Resultado de la consulta de aeropuertos con mayor altitud}}{31}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Resultado de la consulta de aeropuertos en España}}{32}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Resultado de la consulta de países con aeropuertos en horario de verano de Europa}}{32}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Resultado de la consulta de aerolíneas en EEUU con particionado por país}}{33}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Resultado de la consulta de aerolíneas en EEUU}}{33}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Resultado de la consulta de países con más aerolíneas inactivas}}{33}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Resultado de la consulta de países con aerolíneas activas y aeropuertos con latitud mayor a 80}}{34}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Resultado de la consulta de rutas sin paradas a destinos con altitud mayor a 200 metros por país con aerolíneas inactivas}}{34}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Guardado del dataframe en formato parquet en la ruta /practica/aggregations/ de HDFS}}{35}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Resultado de la consulta de la tabla de agregaciones}}{35}{figure.3.11}%

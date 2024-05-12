@@ -27,7 +27,7 @@ rdd.take(5).foreach(println)
     \label{fig:countries_rdd}
 \end{figure}
 
-Ahora vamos a realizar una serie de transformaciones para limpiar los datos y darles una estructura. Para ello, vamos a utilizar el método \texttt{map} para dividir las líneas por el separador \texttt{##}, eliminar los espacios en blanco y eliminar los elementos vacíos. A continuación, filtramos las líneas que no tengan 3 elementos y mostramos el resultado:
+Ahora vamos a realizar una serie de transformaciones para limpiar los datos y darles una estructura. Para ello, vamos a utilizar el método \texttt{map} para dividir las líneas por el separador \texttt{\#\#}, eliminar los espacios en blanco y eliminar los elementos vacíos. A continuación, filtramos las líneas que no tengan 3 elementos y mostramos el resultado:
 
 \begin{lstlisting}[language=scala]
 val lines = rdd.map(line => line.split("##").map(_.trim).filter(_.nonEmpty)).filter(_.size == 3)
